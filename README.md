@@ -6,11 +6,7 @@ This can serve as a starting point, give you some clues into Python, and in prin
 
 * It's trivial to break code into separate functions with `def` keyword. \
   I've started at the inside and worked outwards...
-* The canonical way to launch a script is with `python3 file.py`, which starts Python and "runs" the `file.py` code. The way the code knows whether it is being _run_ (or just imported by another file) is with the check:
-  ```
-    if __name__ == '__main__':
-  ```
-* 
+* The canonical way to launch a script is with `python3 file.py`, which starts Python and "runs" the `file.py` code.
 
 ## Tools:
 

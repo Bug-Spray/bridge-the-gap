@@ -66,7 +66,6 @@ def run_loop():
     
     time.sleep(1)  # 1s sleep; to stop it churning too hard during idle
 
-if __name__ == '__main__':
-    # Yep, infinite loops are bad, except when they're not
-    while True:
-        run_loop()
+# Yep, infinite loops are bad, except when they're not
+while True:
+    run_loop()
